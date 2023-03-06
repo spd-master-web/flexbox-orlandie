@@ -20,13 +20,15 @@ nav {
 
     display: flex;
     align-self: stretch;
-    
 }
 
 main {
     display: flex;
     padding: 15px;
     flex-direction: column;
+
+    align-self: stretch; 
+    justify-content: space-between;
 }
 
 aside {
@@ -36,6 +38,16 @@ aside {
 
     display: flex;
     flex-direction: column;
-    align-self: stretch;
+    align-self: stretch; 
+}
+
+
+/*layout-1*/
+
+.copy {
+    background-color: rgb(192, 189, 189);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
     
 }
