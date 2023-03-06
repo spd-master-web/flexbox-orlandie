@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+/*layout*/
+
+.container {
+    border: 1px dashed gray;
+    height: 800px;
+
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+nav {
+    background-color: gray;
+    padding: 15px;
+    width: 30%;
+
+    display: flex;
+    align-self: stretch;
+    
+}
+
+main {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+
+aside {
+    background-color: gray;
+    padding: 15px;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    
+}
