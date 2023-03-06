@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(252, 168, 168);
+    padding: 10px;;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
