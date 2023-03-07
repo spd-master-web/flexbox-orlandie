@@ -13,9 +13,7 @@ ul {
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
-  
-
-
+    padding: 0%;
  
 }
 
@@ -23,7 +21,4 @@ a:link {
     color: red;
     text-decoration: none;
     border-bottom: 1px solid red;
-
-    
-
 }
