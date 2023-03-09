@@ -4,7 +4,13 @@
 
 nav{
     background-color: rgb(252, 168, 168);
-    padding: 10px;
+
+    height: 40px;
+    width: 800px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -12,13 +18,22 @@ ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-between;
+    
     padding: 0%;
  
 }
 
 a:link {
     color: red;
-    text-decoration: none;
-    border-bottom: 1px solid red;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px,;
+    border-right: 1px solid red;
+}
+
+
+.flex-item {
+    border-right:none;
 }
