@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px dashed gray;
+    height: 800px;
+}
+
+.menu{
+    background-color: rgb(233, 229, 229);
+    height: 100px;
+    
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ul-flex {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    
+
+    column-gap: ;
+
+}
+
+.big {
+    height: 700px;
+
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+
+
+.nav {
+    background-color: gray;
+    padding: 15px;
+    width: 30%;
+
+    display: flex;
+    align-self: stretch;
+}
+
+main {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+
+    align-self: stretch; 
+    justify-content: space-between;
+}
+
+aside {
+    background-color: gray;
+    padding: 15px;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-self: stretch; 
+}
+
+.copy {
+    background-color: rgb(192, 189, 189);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+}
