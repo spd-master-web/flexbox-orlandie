@@ -4,6 +4,7 @@
 
 nav{
     background-color: rgb(252, 168, 168);
+    width: 70%;
     padding: 10px;
 
 }
@@ -20,8 +21,8 @@ ul {
 ul a {
     color: red;
     
-    padding: 15px;
-    padding-right: 200px;
+   
+    padding: 20px 100px 20px 20px;
     border-right: 1px solid red;
 
     
@@ -31,7 +32,7 @@ ul a {
 
 .flex-item a {
     border-right:rgb(252, 168, 168);
-    padding-right: 15px;
+    padding-right: 30px;
 }
 
 
