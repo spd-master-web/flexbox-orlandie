@@ -4,14 +4,11 @@
 
 .nav{
     background-color: rgb(252, 168, 168);
-
     height: 40px;
  
-
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 ul {

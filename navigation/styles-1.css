@@ -12,19 +12,26 @@ ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: center;
-
-    column-gap: 40px;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
 }
 
-a:link {
+ul a {
     color: red;
-    text-decoration: none;
-    border-bottom: 1px solid red;
+    
+    padding: 15px;
+    padding-right: 200px;
+    border-right: 1px solid red;
 
     
 
 }
 
+
+.flex-item a {
+    border-right:rgb(252, 168, 168);
+    padding-right: 15px;
+}
 
 
