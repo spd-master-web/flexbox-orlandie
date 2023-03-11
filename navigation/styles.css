@@ -2,9 +2,15 @@
     box-sizing: border-box;
 }
 
-nav{
+.nav{
     background-color: rgb(252, 168, 168);
-    padding: 10px;
+
+    height: 40px;
+ 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -12,18 +18,16 @@ ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: center;
-
-    column-gap: 40px;   
 }
 
-a:link {
+ul a {
     color: red;
-    text-decoration: none;
-    border-bottom: 1px solid red;
-
     
-
+    padding: 10px 20px;
+    border-right: 1px solid red;
 }
 
 
+.flex-item a {
+    border-right:rgb(252, 168, 168);
+}
